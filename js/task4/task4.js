@@ -5,13 +5,16 @@ function tables() {
     const large = "large table"; 
    
     if (guestNumber <= 2) { 
-      console.log(small); 
+      console.log(small);
+        return small;
     } 
     if (guestNumber <= 4) { 
       console.log(medium); 
+        return medium;
     } 
     if (guestNumber <= 8) { 
       console.log(large); 
+        return large;
     } 
   } 
    tables();
