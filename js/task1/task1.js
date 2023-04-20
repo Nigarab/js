@@ -1,11 +1,11 @@
-function customer() { 
-    const lastName = prompt("Enter your Lastname:"); 
-    const firstName =  prompt("Enter your Firstname:"); 
-    const email =  prompt("Enter your email"); 
+document.getElementById("bottom").addEventListener("click", function () { 
+    event.preventDefault(); 
+    let lastName = document.getElementById("lastname").value; 
+    let firstName = document.getElementById("firstname").value; 
+    let email = document.getElementById("email").value; 
+   
+   
     const customerString = `${email} - ${lastName} ${firstName}`; 
-    return  customerString; 
-    
-} 
-const customers= customer();
-console.log(customers);
+    return console.log(customerString); 
+  });
 
