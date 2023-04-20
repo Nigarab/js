@@ -1,7 +1,8 @@
-function deliver() { 
-    const kilometres = prompt("Enter kilometres"); 
-return 5 + kilometres * 0.25  
- 
-} 
-const customer =  deliver(); 
-console.log(customer);
+document.getElementById("bottom").addEventListener("click", function () { 
+    event.preventDefault(); 
+    let kilometres = document.getElementById("kilometr").value; 
+   
+  const end =   5 + kilometres * 0.25   
+  return console.log(end) 
+  
+})
