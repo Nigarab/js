@@ -1,20 +1,16 @@
-function tables() { 
-    const guestNumber = prompt("enter guests number from 1 to 8"); 
-    const small = "small table"; 
-    const medium = "medium table"; 
-    const large = "large table"; 
-   
-    if (guestNumber <= 2) { 
-      console.log(small);
-        return small;
-    } 
-    if (guestNumber <= 4) { 
-      console.log(medium); 
-        return medium;
-    } 
-    if (guestNumber <= 8) { 
-      console.log(large); 
-        return large;
-    } 
-  } 
-   tables();
+document.getElementById("bottom").addEventListener("click", function () { 
+  event.preventDefault(); 
+      let guestNumber = document.getElementById("guestsnumber").value  
+       const small = "small table" 
+       const medium = "medium table"  
+       const large = "large table" 
+       
+     if (guestNumber<=2) {  
+       return console.log(small)}  
+       if (guestNumber<= 4 ) {  
+         return console.log(medium)}  
+       if (guestNumber<=8){  
+         return console.log(large)  
+       }  
+           
+       } )
