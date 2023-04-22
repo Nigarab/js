@@ -6,11 +6,13 @@ document.getElementById("bottom").addEventListener("click", function () {
        const large = "large table" 
        
      if (guestNumber<=2) {  
-       return console.log(small)}  
+       return small
+        }  
        if (guestNumber<= 4 ) {  
-         return console.log(medium)}  
+         return medium
+       }  
        if (guestNumber<=8){  
-         return console.log(large)  
+         return large
        }  
            
        } )
